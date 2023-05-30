@@ -807,3 +807,18 @@ footer {
 .social-icons img {
     margin: 0 5px;
 }
+#main-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1440px) {
+  #main-slider {
+    max-height: 520px;
+  }
+}
